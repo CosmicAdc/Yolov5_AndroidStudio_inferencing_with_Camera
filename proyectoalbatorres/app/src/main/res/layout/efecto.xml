@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/TextoEfecto"
+        android:layout_width="179dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="28dp"
+        android:text="Efecto Cartonizador"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextureView
+        android:id="@+id/textureViewCaricatura"
+        android:layout_width="398dp"
+        android:layout_height="398dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextoEfecto" />
+
+
+    <ImageView
+        android:id="@+id/imageViewCaricatura"
+        android:layout_width="398dp"
+        android:layout_height="398dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextoEfecto"
+/>
+
+    <SeekBar
+        android:id="@+id/seekBar20"
+        android:layout_width="263dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="59dp"
+        android:max="9"
+        android:min="1"
+        android:stepSize="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textureViewCaricatura" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

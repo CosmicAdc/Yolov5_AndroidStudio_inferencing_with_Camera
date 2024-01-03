@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Proyecto Integrador Vision</string>
+    <string name="navigation_drawer_open">Abrio navegacion</string>
+    <string name="navigation_drawer_close">Cerro navegacion</string>
+</resources>

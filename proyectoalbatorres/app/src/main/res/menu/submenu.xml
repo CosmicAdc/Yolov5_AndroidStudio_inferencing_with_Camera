@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Histograma" />
+
+    <item
+        android:id="@+id/nav_tab1"
+        android:title="Reemplazo de pixel" />
+
+    <item
+        android:id="@+id/nav_tab2"
+        android:title="Filtros" />
+
+    <item
+        android:id="@+id/nav_tab3"
+        android:title="Efecto" />
+
+
+</menu>
